@@ -2,12 +2,24 @@
 
 Este repositorio contiene los proyectos del cursus de 42, organizados como submódulos de Git.
 
-## Proyectos
+## Estructura de Proyectos
 
-- **libft**: Biblioteca de funciones básicas en C
-- **printf**: Reimplementación de printf
-- **get_next_line**: Función para leer línea por línea de un file descriptor
-- **push_swap**: Algoritmo de ordenación usando dos stacks
+### Submódulos Principales
+
+1. **gnl** (get_next_line)
+   - Función para leer línea por línea de un file descriptor
+   - Repositorio: https://github.com/tal-44/get_next_line.git
+
+2. **libft**
+   - Biblioteca de funciones básicas en C
+   - Incluye **ft_printf** integrado (no como submódulo)
+   - Contiene **gnl** como submódulo anidado
+   - Repositorio: https://github.com/tal-44/libft.git
+
+3. **push_swap**
+   - Algoritmo de ordenación usando dos stacks
+   - Utiliza **libft** como submódulo (con gnl y ft_printf incluidos)
+   - Repositorio: https://github.com/tal-44/push_swap.git
 
 ## Clonar el repositorio
 
