@@ -1,0 +1,12 @@
+[submodule "gnl"]
+	path = gnl
+	url = https://github.com/tal-44/get_next_line.git
+[submodule "libft"]
+	path = libft
+	url = https://github.com/tal-44/libft.git
+[submodule "printf"]
+	path = printf
+	url = https://github.com/tal-44/printf.git
+[submodule "push_swap"]
+	path = push_swap
+	url = https://github.com/tal-44/push_swap.git
