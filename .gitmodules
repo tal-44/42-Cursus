@@ -5,7 +5,8 @@
 	path = libft
 	url = https://github.com/tal-44/libft.git
 [submodule "push_swap"]
-	path = push_swap
-	url = https://github.com/tal-44/push_swap.git
+        path = push_swap
+        url = https://github.com/tal-44/push_swap.git
 [submodule "pipex"]
-	path = pipex
+        path = pipex
+        url = https://github.com/tal-44/pipex.git
