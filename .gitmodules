@@ -7,3 +7,5 @@
 [submodule "push_swap"]
 	path = push_swap
 	url = https://github.com/tal-44/push_swap.git
+[submodule "pipex"]
+	path = pipex
