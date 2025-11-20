@@ -43,6 +43,25 @@ Para actualizar todos los submódulos a sus últimos commits:
 git submodule update --remote --merge
 ```
 
+**Nota importante sobre submódulos anidados:**
+- `libft` contiene `gnl` como submódulo anidado
+- Usa siempre `--recursive` para asegurar que todos los niveles de submódulos se inicialicen
+
+## Compilar los Proyectos
+
+### Compilar libft
+```bash
+cd libft
+make
+```
+
+### Compilar push_swap
+```bash
+cd push_swap
+make
+```
+Esto compilará automáticamente libft como dependencia.
+
 ## Trabajar con submódulos individuales
 
 Cada submódulo es un repositorio Git independiente. Para trabajar en un submódulo específico:
