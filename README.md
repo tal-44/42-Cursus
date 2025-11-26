@@ -23,6 +23,8 @@ Este repositorio contiene los proyectos del cursus de 42, organizados como subm√
 
 ## Clonar el repositorio
 
+Personalmente recomiendo por facilidad clonar solo el repositorio que necesites.
+
 Para clonar este repositorio junto con todos los subm√≥dulos:
 
 ```bash
