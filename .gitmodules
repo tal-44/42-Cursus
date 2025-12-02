@@ -10,3 +10,6 @@
 [submodule "pipex"]
         path = pipex
         url = https://github.com/tal-44/pipex.git
+[submodule "fract-ol"]
+	path = fract-ol
+	url = https://github.com/tal-44/fract-ol.git

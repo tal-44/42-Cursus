@@ -12,14 +12,21 @@ Este repositorio contiene los proyectos del cursus de 42, organizados como subm�
 
 2. **libft**
    - Biblioteca de funciones básicas en C
-   - Incluye **ft_printf** integrado (no como submódulo)
-   - Contiene **gnl** como submódulo anidado
+   - Incluye **ft_printf** y **gnl** integrados
    - Repositorio: https://github.com/tal-44/libft.git
 
 3. **push_swap**
    - Algoritmo de ordenación usando dos stacks
-   - Utiliza **libft** como submódulo (con gnl y ft_printf incluidos)
+   - Contiene copia local de libft (solo funciones necesarias)
    - Repositorio: https://github.com/tal-44/push_swap.git
+
+4. **pipex**
+   - Simulación del comportamiento de pipes de Unix
+   - Repositorio: https://github.com/tal-44/pipex.git
+
+5. **fract-ol**
+   - Explorador de fractales usando MiniLibX
+   - Contiene copia local de libft y MiniLibX
 
 ## Clonar el repositorio
 
@@ -45,9 +52,9 @@ Para actualizar todos los submódulos a sus últimos commits:
 git submodule update --remote --merge
 ```
 
-**Nota importante sobre submódulos anidados:**
-- `libft` contiene `gnl` como submódulo anidado
-- Usa siempre `--recursive` para asegurar que todos los niveles de submódulos se inicialicen
+**Nota sobre dependencias:**
+- Los proyectos individuales (fract-ol, push_swap) contienen copias locales de sus dependencias
+- No hay submódulos anidados en los proyectos individuales
 
 ## Compilar los Proyectos
 
